@@ -1,0 +1,93 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #ffe0e4;
+}
+.wraper {
+    margin: 0 auto;
+    
+}
+.content {
+    display: flex;
+   justify-content: space-between; 
+   margin: 0 auto;
+}
+.name {
+    flex-grow: 2;
+    margin: 100px;
+}
+.round {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 10px solid #f7adb7;
+    width: 200px;
+    height: 200px;
+    
+   margin: 20px;
+  
+   background-size: auto 400px;
+}
+h1 {
+    font-size: 42px;
+}
+.photo {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+
+}
+.info {
+    display: flex;
+}
+.info_left {
+    background-color: #fac5cd;
+    padding: 25px;
+   width: 50%;
+}
+.info_reight {
+    flex-grow: 2;
+    background-color: #f7adb7;
+    padding: 25px;
+    width: 50%;
+}
+.contacts {
+    background-color: #fcdce1;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+.logo {
+    width: 100px;
+    height: 50px;
+    background: url(./rs_school_js.svg) no-repeat;
+}
+.link {
+    color: black;
+}
+.work {
+    background-color: #f7adb7;
+}
+ hr {
+    border: none; 
+    background-color: #f07f8e;
+    color: #f07f8e; 
+    height: 2px; 
+    margin: 20px;
+   }
+   .marcer {
+       list-style-type: none;
+   }
+   .bold {
+       font-size: 24px;
+       font-weight: bold;
+   }
+   .nobold {
+    font-size: 16px;
+    font-weight: normal;
+   }
