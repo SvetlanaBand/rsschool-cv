@@ -74,10 +74,10 @@ h1 {
     background-color: #f7adb7;
 }
  hr {
-    border: none; /* Убираем границу */
-    background-color: #f07f8e; /* Цвет линии */
-    color: #f07f8e; /* Цвет линии для IE6-7 */
-    height: 2px; /* Толщина линии */
+    border: none; 
+    background-color: #f07f8e;
+    color: #f07f8e; 
+    height: 2px; 
     margin: 20px;
    }
    .marcer {
@@ -86,4 +86,8 @@ h1 {
    .bold {
        font-size: 24px;
        font-weight: bold;
+   }
+   .nobold {
+    font-size: 16px;
+    font-weight: normal;
    }
